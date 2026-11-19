@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69f203bf861c967878ec1b3f34f944b7",
+    "content-hash": "d8a77898320f1863bc48626b7b24392a",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -3746,11 +3746,17 @@
         },
         {
             "name": "speedyspec/cli-contracts",
-            "version": "1.1.0",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SpeedySpec/speedyspec-cli-contracts.git",
+                "reference": "326d1e67d44baba139dab5a9992d0a5ea1c1e426"
+            },
             "dist": {
-                "type": "path",
-                "url": "../speedyspec-cli-contracts",
-                "reference": "fc65c71d34569a1b4783b5fbaa9820e7a701eab6"
+                "type": "zip",
+                "url": "https://api.github.com/repos/SpeedySpec/speedyspec-cli-contracts/zipball/326d1e67d44baba139dab5a9992d0a5ea1c1e426",
+                "reference": "326d1e67d44baba139dab5a9992d0a5ea1c1e426",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.4"
@@ -3764,6 +3770,7 @@
                     "SpeedySpec\\Cli\\Contracts\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3774,10 +3781,11 @@
                 }
             ],
             "description": "Value classes PHP plugins use to extend the speedyspec CLI",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/SpeedySpec/speedyspec-cli-contracts/issues",
+                "source": "https://github.com/SpeedySpec/speedyspec-cli-contracts/tree/v1.3.0"
+            },
+            "time": "2026-11-19T18:30:36+00:00"
         },
         {
             "name": "staabm/side-effects-detector",

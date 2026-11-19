@@ -9,17 +9,8 @@
     },
     "require-dev": {
         "pestphp/pest": "^3.0|^4.0",
-        "speedyspec/cli-contracts": "*"
+        "speedyspec/cli-contracts": "^1.2"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../speedyspec-cli-contracts",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "SpeedySpec\\CliWordPressOrg\\": "src/"
