@@ -1,0 +1,35 @@
+{
+    "name": "speedyspec/cli-wordpress-org",
+    "description": "The speedyspec CLI source plugin for wordpress.org's plugin and theme directories",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=8.4",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.0|^4.0",
+        "speedyspec/cli-contracts": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../speedyspec-cli-contracts",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpeedySpec\\CliWordPressOrg\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
