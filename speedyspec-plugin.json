@@ -1,6 +1,6 @@
 {
     "name": "speedyspec/wordpress-org",
     "version": "0.1.0",
-    "contracts": "^1.1",
+    "contracts": "^1.2",
     "entry": "plugin.php"
 }
